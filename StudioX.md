@@ -4,9 +4,9 @@ layout: default
 
 ## StudioX INstallation and Firmware-Update for MicroBeast Plus
 
-_yay_
+### StudioX installation process on Big Sur
 
-![Branching](https://trickx.github.com/images/beastx/hello-world/studiox_installer.png)
+![StudioX Installer](https://trickx.github.io//images/beastx/studiox_installer.png)
 
 
 [back](./)
