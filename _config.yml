@@ -3,5 +3,4 @@ description: Documentation about my adventures in electronics.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
-github:
-  is_project_page: false
+show_downloads: false
