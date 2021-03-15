@@ -16,8 +16,10 @@ Select "open" to install StudioX
 ![StudioX Installer granted](https://trickx.github.io//images/beastx/studiox_installation_granted.png)
 Standard installer procedure: yes, yes, click, click, done.
 ![StudioX Installer Procedure](https://trickx.github.io//images/beastx/studiox_installer.png)
+Wiring diagram for RX2SIM, Microbeast and my receiver (FrSky X4R)".
+![StudioX Installer Procedure](https://trickx.github.io/images/beastx/studiox-rx2sim-microbeast-x4r.png)
 If USB2SIM is connected and driver installed properly. Select "connect".
-![StudioX Installer USB device found](https://trickx.github.io//images/beastx/studiox_usb_device_found.png)
+![StudioX Installer USB device found](https://trickx.github.io/images/beastx/studiox_usb_device_found.png)
 Welcome to the main menu.
 ![StudioX Main Menu](https://trickx.github.io//images/beastx/studiox_main_menu.png)
 Firmware Update: Click "download"
