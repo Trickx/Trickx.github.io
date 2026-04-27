@@ -69,4 +69,33 @@ By running a **Dynamic PSF** analysis on both the full stack and the filtered se
 **Conclusion on SNR:**
 Since the **Amplitude (Signal)** increased while the **Background (Noise floor)** decreased, the overall **Signal-to-Noise Ratio (SNR)** has significantly improved in the filtered stack, even with 30% fewer frames.
 
+Since it's always wise to fetch a 2nd opinion, both stacked images were also analysed by PixInsight:
+
+| Parameter                     | Full Stack | Selection | Observation & Impact |
+|:-----------------------------|:-----------|:----------|:---------------------|
+| **PSF Signal Weight**        | 3,26E+06   | 3,50E+06  | ↑ **Improved:** Selection increases overall signal contribution. |
+| **PSF SNR**                  | 3,79E+07   | 3,68E+07  | ↓ **Slight decrease** compared to Full stack. |
+| **PSF Count**                | 6607       | 6875      | ↑ **Improved:** More stars detected in Selection. |
+| **M\***                      | 1,27E+00   | 1,44E+00  | ↑ **Increased** (no clear practical impact). |
+| **N\***                      | 1,86E+00   | 2,11E+00  | ↑ **Increased** (minor relevance). |
+| **SNR**                      | 4,71E+05   | 4,22E+05  | ↓ **Decreased** (lower overall SNR). |
+| **FWHM**                     | 3,14E+04   | 3,06E+04  | ↓ **Improved:** Smaller FWHM → sharper stars. |
+| **Eccentricity**             | 4,50E+03   | 4,41E+03  | ↓ **Improved:** More circular stars. |
+| **Median**                   | 6,94E+03   | 3,50E+03  | ↓ Changed background level (normalization/exposure difference). |
+| **Noise**                    | 1,62E+00   | 1,83E+00  | ↑ **Increased** noise. |
+| **Noise Ratio**              | 4,36E+03   | 4,28E+03  | ↓ **Slight decrease** |
+| **Stars**                    | 6201       | 6458      | ↑ **Improved:** More stars detected. |
+| **Star Residual**            | 1,46E+00   | 1,66E+00  | ↑ **Increased residuals** (worse fit quality). |
+| **PSF Total Flux**           | 6,15E+09   | 6,83E+09  | ↑ **Improved:** Higher total signal. |
+| **PSF Total Power Flux**     | 1,32E+11   | 1,45E+11  | ↑ **Improved:** Higher overall intensity. |
+| **PSF Total Mean Flux**      | 1,85E+07   | 2,28E+07  | ↑ **Improved:** Brighter average stars. |
+| **PSF Total Mean Power Flux**| 6,45E+04   | 9,57E+04  | ↑ **Improved:** Higher per-star intensity. |
+| **FWHM Mean Deviation**      | 2,59E+03   | 2,55E+03  | ↓ **Improved:** Slightly more consistent star sizes. |
+| **Eccentricity Mean Deviation** | 1,23E+03 | 1,26E+03  | ↑ **Increased variation** (less consistent shapes). |
+| **Star Residual Mean Deviation** | 1,45E-01 | 1,71E-01 | ↑ **Increased variation** (less stable fits). |
+
+Ok, these are just numbers. But is it visible?
+
+
+
 [back](./)
