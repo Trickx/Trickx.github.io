@@ -8,7 +8,9 @@ layout: default
 
 This tutorial demonstrates how to filter your subframes to achieve a higher-quality stack. A prerequisite is a registered sequence (e.g., created via the `OSC_Preprocessing.ssf` script).
 
-Source Documentation: [https://siril.org/tutorials/dynamic-psf/](https://siril.org/tutorials/dynamic-psf/)
+* [Source Documenation](https://siril.org/tutorials/dynamic-psf/)
+
+* [Culling data in Siril](https://www.youtube.com/watch?v=UrLSA46kNLU)
 
 First, set Siril's working directory to your sequence location (typically the `process` folder). Navigate to the **Sequence** tab and click **Search Sequences**:
 
@@ -96,6 +98,14 @@ Since it's always wise to fetch a 2nd opinion, both stacked images were also ana
 
 Ok, these are just numbers. But is it visible?
 
+The following screenshots where taken after Spectrophotometric Color Calibration, Auto Background Extraction and Stretching with Veralux Hypermetric Strectch.
 
+![Side By Side Comparison 1](https://trickx.github.io//images/siril/SideBySide1.png)
+![Side By Side Comparison 2](https://trickx.github.io//images/siril/SideBySide2.png)
+![Side By Side Comparison 3](https://trickx.github.io//images/siril/SideBySide3.png)
+
+The image based on the selection shows in some areas more noise, nothing what NXT or other tools can't handle.
+That's all I was able to see.
+Conclusion? Hm, build your own opinion...
 
 [back](./)
